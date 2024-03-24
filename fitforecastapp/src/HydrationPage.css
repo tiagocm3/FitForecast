@@ -1,0 +1,67 @@
+.background1 {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+.background-image1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+.Slogan {
+    position: absolute;
+    font-size: 2vw;
+    top: 20%;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hydration-container {
+    position: relative;
+    padding: 20px;
+    top: 15%;
+    color: black; /* Ensure text color contrasts with background */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hydration-facts {
+    max-width: 60%;
+    height: auto;
+    margin: 0 auto;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hydration-facts h2 {
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hydration-facts p,
+.hydration-facts li {
+    line-height: 1.6;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hydration-facts ul {
+    margin-top: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    position: absolute;
+    width: 10%;
+    top: -12%;
+    left: 2.3%;
+}

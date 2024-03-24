@@ -1,0 +1,146 @@
+.Welcome-Background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.fit-logo {
+    position: absolute;
+
+    top: 2%; 
+    left: 2%; 
+    width: 10%; 
+}
+.greybox {
+    position: absolute;
+    width: 13%; 
+    height: auto;
+    right:35%; 
+    bottom: 20%; 
+}
+.rain-overlay1 {
+    position: absolute;
+    top: 10%; 
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(217, 217, 217, 0.9); 
+    width: 6%; 
+    height: 8%;
+    max-width: 20%;
+    padding: 7%; 
+    border-radius: 15px; 
+    
+}
+.rain-overlay2 {
+    position: absolute;
+    top: 60%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(217, 217, 217, 0.9); 
+    width: 6%; 
+    height: 8%;
+    max-width: 20%;
+    padding: 7%; 
+    border-radius: 15px; 
+}
+.rain-overlay3 {
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(217, 217, 217, 0.9); 
+    width: 6%; 
+    height: 8%;
+    max-width: 20%;
+    padding: 7%; 
+    border-radius: 15px; 
+}
+.rain-overlay4 {
+    position: absolute;
+    top: 30%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(217, 217, 217, 0.9); 
+    width: 6%; 
+    height: 8%;
+    max-width: 20%;
+    padding: 7%; 
+    border-radius: 15px; 
+}
+.rain-overlay5 {
+    position: absolute;
+    top:30%; 
+    left: 75%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(217, 217, 217, 0.9); 
+    width: 6%; 
+    height: 8%;
+    max-width: 20%;
+    padding: 7%; 
+    border-radius: 15px; 
+}
+.rain-overlay6 {
+    position: absolute;
+    top: 30%; 
+    left: 25%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(217, 217, 217, 0.9); 
+    width: 6%; 
+    height: 6%;
+    max-height: 8%;
+    max-width: 20%;
+    padding: 7%; 
+    border-radius: 15px; 
+}
+.humid{
+    position: relative;
+    width: 90%;
+    top: 75%;
+    left: 0%;
+}
+.rain-wind{
+    position: relative;
+    width: 120%;
+    top: 85%;
+    left: -15%;
+}
+
+.rain-overlay1, .rain-overlay2, .rain-overlay3, .rain-overlay4, .rain-overlay5, .rain-overlay6 {
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.overlays img {
+    height: 120%;
+    width: 120%;
+}
+
+
+.rain-overlay2 img {
+    height: 200%;
+    width: 200%;
+}
+
+.cont {
+    position: relative;
+    top: -130%;
+}
+.rain-overlay3 .cont, .rain-overlay2 .cont, .rain-overlay6 .cont {
+    left: -50%
+}
+
+.rain-overlay6 img{
+    height: 160%;
+    width: 160%;
+    position: relative;
+    left: 10%;
+}
